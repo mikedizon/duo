@@ -1,0 +1,15 @@
+DNS configuration
+
+resolver #1
+  nameserver[0] : 10.2.0.1
+  if_index : 26 (utun9)
+
+resolver #2
+  domain   : local
+  options  : mdns
+
+DNS configuration (for scoped queries)
+
+resolver #1
+  nameserver[0] : 192.168.0.1
+  if_index : 14 (en0)

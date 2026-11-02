@@ -1,0 +1,13 @@
+Available network connection services in the current set (*=enabled):
+* (Disconnected)   05299723-FA11-9AE1-B2EB-D5AF03A1EA66 VPN (com.wireguard.macos) "106"                            [VPN:com.wireguard.macos]
+* (Disconnected)   9645841A-AE49-E483-084E-76475C900D33 VPN (com.wireguard.macos) "89"                             [VPN:com.wireguard.macos]
+* (Disconnected)   EF0DCDE6-40CD-4F20-29DA-4B32B2146442 VPN (com.wireguard.macos) "88"                             [VPN:com.wireguard.macos]
+* (Disconnected)   29118533-8A28-7775-C27F-3D6A8DDAE987 VPN (com.wireguard.macos) "138"                            [VPN:com.wireguard.macos]
+* (Disconnected)   AF424E86-89FE-3709-70E3-2E632F2F6CC6 VPN (com.wireguard.macos) "87"                             [VPN:com.wireguard.macos]
+* (Disconnected)   38461920-B963-BFF7-F30E-9ACC7B1D6AB7 VPN (com.wireguard.macos) "44"                             [VPN:com.wireguard.macos]
+* (Disconnected)   178224AC-222A-A3D0-B5BE-C17BAE9C2A2C VPN (com.wireguard.macos) "46"                             [VPN:com.wireguard.macos]
+* (Disconnected)   80D2AD75-37ED-622E-A860-5799CC0AD589 VPN (com.wireguard.macos) "115"                            [VPN:com.wireguard.macos]
+* (Disconnected)   5BB13E92-475B-B9AD-0A92-6D05479FF23C VPN (com.wireguard.macos) "47"                             [VPN:com.wireguard.macos]
+* (Disconnected)   A862F967-71D8-3478-63CA-89EFD9562F97 VPN (com.wireguard.macos) "45"                             [VPN:com.wireguard.macos]
+* (Disconnected)   C4291166-BAAC-26DC-6E55-06744C20BE51 VPN (ch.protonvpn.mac) "ProtonVPN"                      [VPN:ch.protonvpn.mac]
+* (Disconnected)   9C910FA6-2D55-3068-CC6B-373324CF26F3 VPN (io.tailscale.ipn.macos) "Tailscale"                      [VPN:io.tailscale.ipn.macos]

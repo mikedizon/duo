@@ -1,0 +1,767 @@
+{
+ "head": {
+  "status": "200",
+  "data": {}
+ },
+ "body": {
+  "stores": [
+   {
+    "storeName": "International Plaza",
+    "state": "FL",
+    "city": "Tampa",
+    "storeNumber": "R019",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple International Plaza",
+     "address3": null,
+     "address2": "2223 N West Shore Boulevard",
+     "postalCode": "33607"
+    },
+    "storedistance": 1.13
+   },
+   {
+    "storeName": "Brandon",
+    "state": "FL",
+    "city": "Brandon",
+    "storeNumber": "R289",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple Brandon",
+     "address3": null,
+     "address2": "459 Brandon Town Center Drive",
+     "postalCode": "33511"
+    },
+    "storedistance": 13.04
+   },
+   {
+    "storeName": "University Town Center",
+    "state": "FL",
+    "city": "Sarasota",
+    "storeNumber": "R615",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple University Town Center",
+     "address3": null,
+     "address2": "140 University Town Center Dr",
+     "postalCode": "34243"
+    },
+    "storedistance": 40.92
+   },
+   {
+    "storeName": "Millenia",
+    "state": "FL",
+    "city": "Orlando",
+    "storeNumber": "R053",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple Millenia",
+     "address3": null,
+     "address2": "4200 Conroy Road",
+     "postalCode": "32839"
+    },
+    "storedistance": 75.96
+   },
+   {
+    "storeName": "Florida Mall",
+    "state": "FL",
+    "city": "Orlando",
+    "storeNumber": "R143",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple Florida Mall",
+     "address3": null,
+     "address2": "8001 S. Orange Blossom Trail",
+     "postalCode": "32809"
+    },
+    "storedistance": 76.76
+   },
+   {
+    "storeName": "Altamonte",
+    "state": "FL",
+    "city": "Altamonte Springs",
+    "storeNumber": "R291",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple Altamonte",
+     "address3": null,
+     "address2": "451 E Altamonte Drive",
+     "postalCode": "32701"
+    },
+    "storedistance": 85.22
+   },
+   {
+    "storeName": "Coconut Point",
+    "state": "FL",
+    "city": "Estero",
+    "storeNumber": "R185",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple Coconut Point",
+     "address3": null,
+     "address2": "23151 Fashion Drive",
+     "postalCode": "33928"
+    },
+    "storedistance": 117.39
+   },
+   {
+    "storeName": "Waterside Shops",
+    "state": "FL",
+    "city": "Naples",
+    "storeNumber": "R169",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple Waterside Shops",
+     "address3": null,
+     "address2": "5555 Tamiami Trail North",
+     "postalCode": "34108"
+    },
+    "storedistance": 129.67
+   },
+   {
+    "storeName": "St. Johns Town Center",
+    "state": "FL",
+    "city": "Jacksonville",
+    "storeNumber": "R111",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple St. Johns Town Center",
+     "address3": null,
+     "address2": "4835 River City Drive",
+     "postalCode": "32246"
+    },
+    "storedistance": 168.95
+   },
+   {
+    "storeName": "The Gardens Mall",
+    "state": "FL",
+    "city": "Palm Beach Gardens",
+    "storeNumber": "R127",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple The Gardens Mall",
+     "address3": null,
+     "address2": "3101 PGA Boulevard",
+     "postalCode": "33410"
+    },
+    "storedistance": 169.17
+   },
+   {
+    "storeName": "Wellington Green",
+    "state": "FL",
+    "city": "Wellington",
+    "storeNumber": "R024",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple Wellington Green",
+     "address3": null,
+     "address2": "10300 W. Forest Hill Blvd",
+     "postalCode": "33414"
+    },
+    "storedistance": 169.66
+   },
+   {
+    "storeName": "Boca Raton",
+    "state": "FL",
+    "city": "Boca Raton",
+    "storeNumber": "R074",
+    "partsAvailability": {
+     "MK1E4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1E4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1F4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1F4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1G4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1G4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1H4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1H4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1J4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1J4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1L4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1L4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1Q4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1Q4LL/A",
+      "pickupDisplay": "unavailable"
+     },
+     "MK1R4LL/A": {
+      "storePickEligible": true,
+      "pickupSearchQuote": "Currently unavailable",
+      "partNumber": "MK1R4LL/A",
+      "pickupDisplay": "unavailable"
+     }
+    },
+    "address": {
+     "address": "Apple Boca Raton",
+     "address3": null,
+     "address2": "6000 Glades Road",
+     "postalCode": "33431"
+    },
+    "storedistance": 184.73
+   }
+  ],
+  "location": "33607"
+ }
+}

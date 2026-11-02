@@ -1,0 +1,5 @@
+   route to: 203.0.113.10
+destination: 203.0.113.10
+    gateway: 192.168.0.1
+  interface: en0
+      flags: <UP,GATEWAY,HOST,DONE,STATIC>

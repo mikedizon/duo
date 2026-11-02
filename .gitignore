@@ -1,0 +1,32 @@
+# --- Secrets --------------------------------------------------------------
+# Personal settings (ZIP codes, alert choices). Share .env.example instead.
+.env
+.env.*
+!.env.example
+
+# WireGuard / VPN configuration files contain private keys.
+# The proton_configs/ folder itself is kept (for its README); everything else in it is ignored.
+proton_configs/*
+!proton_configs/README.md
+*.conf
+!tests/fixtures/**/*.conf
+
+# --- Personal data ----------------------------------------------------------
+# Poll history: your stores, times, VPN IPs and locations, home network baseline.
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.sqlite3-journal
+*.sqlite3.v*-backup-*
+*.vpn.lock
+iphone_monitor.log
+exports/
+
+# --- Generated / local clutter ---------------------------------------------
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+.idea/
+.vscode/

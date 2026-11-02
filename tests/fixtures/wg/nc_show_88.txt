@@ -1,0 +1,18 @@
+* (Disconnected)   EF0DCDE6-40CD-4F20-29DA-4B32B2146442 VPN (com.wireguard.macos) "88"                             [VPN:com.wireguard.macos]
+VPN <dictionary> {
+  AuthenticationMethod : Password
+  DesignatedRequirement : (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = L82V4Y2P3C) and identifier "com.wireguard.macos.network-extension"
+  DisconnectOnFastUserSwitch : 0
+  DisconnectOnIdle : 0
+  DisconnectOnIdleTimer : 0
+  DisconnectOnLogout : 0
+  DisconnectOnSleep : 0
+  DisconnectOnWake : 0
+  DisconnectOnWakeTimer : 0
+  NEProviderBundleIdentifier : com.wireguard.macos.network-extension
+  OnDemandEnabled : FALSE
+  RemoteAddress : 138.199.50.139:51820
+}
+com.wireguard.macos <dictionary> {
+  UID : 501
+}

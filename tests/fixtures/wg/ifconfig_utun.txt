@@ -1,0 +1,4 @@
+utun9: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1420
+	inet 10.2.0.2 --> 10.2.0.2 netmask 0xffffffff
+	inet6 fe80::1%utun9 prefixlen 64 scopeid 0x1a
+	inet6 2a07:b944::2:2 prefixlen 128
