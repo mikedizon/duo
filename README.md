@@ -4,26 +4,41 @@ Watches Apple's **in-store pickup** availability for all eight iPhone Duo config
 
 - It only **observes** pickup inventory. It never buys anything, and it doesn't track shipping or delivery.
 - Standard-library Python 3.11+, macOS. There's nothing to install for the core monitor.
-- Optional: run every check through a rotating **WireGuard VPN tunnel** (the WireGuard app, e.g. with a free Proton VPN account), with automatic switching when Apple starts refusing an IP.
+- Checks go out through rotating **WireGuard VPN tunnels** (a free Proton VPN account plus the WireGuard app), switching to a fresh IP when Apple starts refusing one. See [Requirements](#requirements).
 
 > "Stock appeared" means Apple's pickup API reported it available at that moment. It is not a verified delivery time, and a quiet day doesn't prove nothing arrived.
 
 ---
 
+## Requirements
+
+| What | Why | Get it |
+|---|---|---|
+| **macOS** with **Python 3.11+** | Runs the monitor. Standard library only, nothing to `pip install`. | `python3 --version` |
+| **A free Proton VPN account** | Supplies the WireGuard configs (VPN servers) the monitor rotates through. On 2026-10-27, without a VPN, Apple started refusing requests (HTTP 541) after about 11 minutes. | [protonvpn.com](https://protonvpn.com); the free plan is enough |
+| **The WireGuard app** | Runs the tunnels; the monitor starts and stops them without sudo | Mac App Store ("WireGuard") |
+
+VPN setup: download WireGuard configs from your Proton account, then import them into the WireGuard app. Step by step: [VPN tunnels → Setup](#setup).
+
+The monitor can also run without a VPN (leave out `--vpn-enabled`), polling from your own IP. When Apple refuses that IP, there's no other IP to switch to, so it waits out cooldowns (5 minutes, then up to 30) until Apple accepts requests again.
+
+---
+
 ## Contents
 
-1. [Quick start](#quick-start)
-2. [How it works](#how-it-works)
-3. [Configuration](#configuration)
-4. [Commands](#commands)
-5. [Watching it run](#watching-it-run)
-6. [Alerts, transitions and waves](#alerts-transitions-and-waves)
-7. [Requests, pacing and refusals](#requests-pacing-and-refusals)
-8. [VPN tunnels (optional)](#vpn-tunnels-optional)
-9. [History and reports](#history-and-reports)
-10. [Troubleshooting](#troubleshooting)
-11. [What has been validated](#what-has-been-validated)
-12. [Development](#development)
+1. [Requirements](#requirements)
+2. [Quick start](#quick-start)
+3. [How it works](#how-it-works)
+4. [Configuration](#configuration)
+5. [Commands](#commands)
+6. [Watching it run](#watching-it-run)
+7. [Alerts, transitions and waves](#alerts-transitions-and-waves)
+8. [Requests, pacing and refusals](#requests-pacing-and-refusals)
+9. [VPN tunnels](#vpn-tunnels)
+10. [History and reports](#history-and-reports)
+11. [Troubleshooting](#troubleshooting)
+12. [What has been validated](#what-has-been-validated)
+13. [Development](#development)
 
 ---
 
@@ -31,12 +46,15 @@ Watches Apple's **in-store pickup** availability for all eight iPhone Duo config
 
 ```sh
 cd ~/Code/duo
-cp .env.example .env                           # then edit it (next section)
-python3 iphone_monitor.py --list-stores        # which stores will be watched
-python3 iphone_monitor.py --dry-run            # test the chime and purchase page; no requests
-python3 iphone_monitor.py --once               # one real check, prints the store × model grid
-caffeinate -i python3 iphone_monitor.py --tui  # keep watching (Ctrl+C or q to stop)
+cp .env.example .env                                         # then edit it (below)
+python3 iphone_monitor.py --list-stores                      # which stores will be watched
+python3 iphone_monitor.py --dry-run                          # test the chime and purchase page; no requests
+python3 iphone_monitor.py --vpn-list                         # the WireGuard-app tunnels it will use
+python3 iphone_monitor.py --vpn-test                         # connect one tunnel, verify it, disconnect
+caffeinate -i python3 iphone_monitor.py --vpn-enabled --tui  # keep watching (q or Ctrl+C to stop)
 ```
+
+The `--vpn-*` steps need the [Proton VPN + WireGuard setup](#setup) first.
 
 **Choose your stores** in `.env` by ZIP code:
 
@@ -61,7 +79,7 @@ Each **poll** asks Apple, for every model at once, which nearby stores can do pi
             │                                                                       │
   .env ──▶ stores ──▶ 1 request per search ZIP ──▶ parse 12 nearest stores × 8 models │
  DUO_ZIPS  (cached)    (random nearby ZIP each       │                               │
-                        time; optional VPN tunnel)   ▼                               │
+                        time; via the VPN tunnel)    ▼                               │
                                       per (store, model): last confirmed status       │
                                                      │                               │
                                        change? ──▶ transition ──▶ wave (per store)    │
@@ -139,7 +157,7 @@ Settings go in a `.env` file next to `iphone_monitor.py` (start from `.env.examp
 | `--wave-window MIN` | Minutes that later stock still joins the same wave (default 10) |
 | `--db PATH` | History database (default `inventory_history.sqlite3` next to the script) |
 | `--verbose` | Detailed `key=value` logs on stderr, or to `iphone_monitor.log` with `--tui` |
-| `--vpn-enabled` | Poll only through a verified WireGuard tunnel ([VPN tunnels](#vpn-tunnels-optional)) |
+| `--vpn-enabled` | Poll only through a verified WireGuard tunnel ([VPN tunnels](#vpn-tunnels)) |
 | `--vpn-rotate-minutes MIN` / `--vpn-rotate-every-cycles N` | Switch tunnels on a schedule (pick one) |
 | `--vpn-list` / `--vpn-test` / `--vpn-status` | List tunnels / connect, check and disconnect one / show the tunnel in use |
 
@@ -232,7 +250,7 @@ The screen shows one line per poll, newest first:
 
 ---
 
-## VPN tunnels (optional)
+## VPN tunnels
 
 With `--vpn-enabled`, every poll goes out through a WireGuard tunnel, so Apple sees a VPN IP instead of yours. No sudo is needed.
 
